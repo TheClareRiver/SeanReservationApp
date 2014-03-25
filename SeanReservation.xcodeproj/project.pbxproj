@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11743FD318E111BF00FF21E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FD218E111BF00FF21E0 /* Foundation.framework */; };
+		11743FD518E111BF00FF21E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FD418E111BF00FF21E0 /* CoreGraphics.framework */; };
+		11743FD718E111BF00FF21E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FD618E111BF00FF21E0 /* UIKit.framework */; };
+		11743FDD18E111BF00FF21E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11743FDB18E111BF00FF21E0 /* InfoPlist.strings */; };
+		11743FDF18E111BF00FF21E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11743FDE18E111BF00FF21E0 /* main.m */; };
+		11743FE318E111BF00FF21E0 /* ReservationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11743FE218E111BF00FF21E0 /* ReservationAppDelegate.m */; };
+		11743FE618E111BF00FF21E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11743FE418E111BF00FF21E0 /* Main.storyboard */; };
+		11743FE918E111BF00FF21E0 /* ReservationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11743FE818E111BF00FF21E0 /* ReservationViewController.m */; };
+		11743FEB18E111BF00FF21E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11743FEA18E111BF00FF21E0 /* Images.xcassets */; };
+		11743FF218E111BF00FF21E0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FF118E111BF00FF21E0 /* XCTest.framework */; };
+		11743FF318E111BF00FF21E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FD218E111BF00FF21E0 /* Foundation.framework */; };
+		11743FF418E111BF00FF21E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11743FD618E111BF00FF21E0 /* UIKit.framework */; };
+		11743FFC18E111BF00FF21E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11743FFA18E111BF00FF21E0 /* InfoPlist.strings */; };
+		11743FFE18E111BF00FF21E0 /* SeanReservationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11743FFD18E111BF00FF21E0 /* SeanReservationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11743FF518E111BF00FF21E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11743FC718E111BF00FF21E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11743FCE18E111BF00FF21E0;
+			remoteInfo = SeanReservation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11743FCF18E111BF00FF21E0 /* SeanReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeanReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11743FD218E111BF00FF21E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11743FD418E111BF00FF21E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11743FD618E111BF00FF21E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11743FDA18E111BF00FF21E0 /* SeanReservation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeanReservation-Info.plist"; sourceTree = "<group>"; };
+		11743FDC18E111BF00FF21E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11743FDE18E111BF00FF21E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11743FE018E111BF00FF21E0 /* SeanReservation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeanReservation-Prefix.pch"; sourceTree = "<group>"; };
+		11743FE118E111BF00FF21E0 /* ReservationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReservationAppDelegate.h; sourceTree = "<group>"; };
+		11743FE218E111BF00FF21E0 /* ReservationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservationAppDelegate.m; sourceTree = "<group>"; };
+		11743FE518E111BF00FF21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11743FE718E111BF00FF21E0 /* ReservationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReservationViewController.h; sourceTree = "<group>"; };
+		11743FE818E111BF00FF21E0 /* ReservationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReservationViewController.m; sourceTree = "<group>"; };
+		11743FEA18E111BF00FF21E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11743FF018E111BF00FF21E0 /* SeanReservationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeanReservationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11743FF118E111BF00FF21E0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		11743FF918E111BF00FF21E0 /* SeanReservationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeanReservationTests-Info.plist"; sourceTree = "<group>"; };
+		11743FFB18E111BF00FF21E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11743FFD18E111BF00FF21E0 /* SeanReservationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeanReservationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11743FCC18E111BF00FF21E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FD518E111BF00FF21E0 /* CoreGraphics.framework in Frameworks */,
+				11743FD718E111BF00FF21E0 /* UIKit.framework in Frameworks */,
+				11743FD318E111BF00FF21E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11743FED18E111BF00FF21E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FF218E111BF00FF21E0 /* XCTest.framework in Frameworks */,
+				11743FF418E111BF00FF21E0 /* UIKit.framework in Frameworks */,
+				11743FF318E111BF00FF21E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11743FC618E111BF00FF21E0 = {
+			isa = PBXGroup;
+			children = (
+				11743FD818E111BF00FF21E0 /* SeanReservation */,
+				11743FF718E111BF00FF21E0 /* SeanReservationTests */,
+				11743FD118E111BF00FF21E0 /* Frameworks */,
+				11743FD018E111BF00FF21E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11743FD018E111BF00FF21E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11743FCF18E111BF00FF21E0 /* SeanReservation.app */,
+				11743FF018E111BF00FF21E0 /* SeanReservationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11743FD118E111BF00FF21E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11743FD218E111BF00FF21E0 /* Foundation.framework */,
+				11743FD418E111BF00FF21E0 /* CoreGraphics.framework */,
+				11743FD618E111BF00FF21E0 /* UIKit.framework */,
+				11743FF118E111BF00FF21E0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11743FD818E111BF00FF21E0 /* SeanReservation */ = {
+			isa = PBXGroup;
+			children = (
+				11743FE118E111BF00FF21E0 /* ReservationAppDelegate.h */,
+				11743FE218E111BF00FF21E0 /* ReservationAppDelegate.m */,
+				11743FE418E111BF00FF21E0 /* Main.storyboard */,
+				11743FE718E111BF00FF21E0 /* ReservationViewController.h */,
+				11743FE818E111BF00FF21E0 /* ReservationViewController.m */,
+				11743FEA18E111BF00FF21E0 /* Images.xcassets */,
+				11743FD918E111BF00FF21E0 /* Supporting Files */,
+			);
+			path = SeanReservation;
+			sourceTree = "<group>";
+		};
+		11743FD918E111BF00FF21E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11743FDA18E111BF00FF21E0 /* SeanReservation-Info.plist */,
+				11743FDB18E111BF00FF21E0 /* InfoPlist.strings */,
+				11743FDE18E111BF00FF21E0 /* main.m */,
+				11743FE018E111BF00FF21E0 /* SeanReservation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11743FF718E111BF00FF21E0 /* SeanReservationTests */ = {
+			isa = PBXGroup;
+			children = (
+				11743FFD18E111BF00FF21E0 /* SeanReservationTests.m */,
+				11743FF818E111BF00FF21E0 /* Supporting Files */,
+			);
+			path = SeanReservationTests;
+			sourceTree = "<group>";
+		};
+		11743FF818E111BF00FF21E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11743FF918E111BF00FF21E0 /* SeanReservationTests-Info.plist */,
+				11743FFA18E111BF00FF21E0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11743FCE18E111BF00FF21E0 /* SeanReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1174400118E111BF00FF21E0 /* Build configuration list for PBXNativeTarget "SeanReservation" */;
+			buildPhases = (
+				11743FCB18E111BF00FF21E0 /* Sources */,
+				11743FCC18E111BF00FF21E0 /* Frameworks */,
+				11743FCD18E111BF00FF21E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeanReservation;
+			productName = SeanReservation;
+			productReference = 11743FCF18E111BF00FF21E0 /* SeanReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11743FEF18E111BF00FF21E0 /* SeanReservationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1174400418E111BF00FF21E0 /* Build configuration list for PBXNativeTarget "SeanReservationTests" */;
+			buildPhases = (
+				11743FEC18E111BF00FF21E0 /* Sources */,
+				11743FED18E111BF00FF21E0 /* Frameworks */,
+				11743FEE18E111BF00FF21E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11743FF618E111BF00FF21E0 /* PBXTargetDependency */,
+			);
+			name = SeanReservationTests;
+			productName = SeanReservationTests;
+			productReference = 11743FF018E111BF00FF21E0 /* SeanReservationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11743FC718E111BF00FF21E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Reservation;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu.bowdoin.cs.johnson;
+				TargetAttributes = {
+					11743FEF18E111BF00FF21E0 = {
+						TestTargetID = 11743FCE18E111BF00FF21E0;
+					};
+				};
+			};
+			buildConfigurationList = 11743FCA18E111BF00FF21E0 /* Build configuration list for PBXProject "SeanReservation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11743FC618E111BF00FF21E0;
+			productRefGroup = 11743FD018E111BF00FF21E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11743FCE18E111BF00FF21E0 /* SeanReservation */,
+				11743FEF18E111BF00FF21E0 /* SeanReservationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11743FCD18E111BF00FF21E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FEB18E111BF00FF21E0 /* Images.xcassets in Resources */,
+				11743FDD18E111BF00FF21E0 /* InfoPlist.strings in Resources */,
+				11743FE618E111BF00FF21E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11743FEE18E111BF00FF21E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FFC18E111BF00FF21E0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11743FCB18E111BF00FF21E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FDF18E111BF00FF21E0 /* main.m in Sources */,
+				11743FE918E111BF00FF21E0 /* ReservationViewController.m in Sources */,
+				11743FE318E111BF00FF21E0 /* ReservationAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11743FEC18E111BF00FF21E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11743FFE18E111BF00FF21E0 /* SeanReservationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11743FF618E111BF00FF21E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11743FCE18E111BF00FF21E0 /* SeanReservation */;
+			targetProxy = 11743FF518E111BF00FF21E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11743FDB18E111BF00FF21E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11743FDC18E111BF00FF21E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11743FE418E111BF00FF21E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11743FE518E111BF00FF21E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11743FFA18E111BF00FF21E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11743FFB18E111BF00FF21E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11743FFF18E111BF00FF21E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1174400018E111BF00FF21E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1174400218E111BF00FF21E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeanReservation/SeanReservation-Prefix.pch";
+				INFOPLIST_FILE = "SeanReservation/SeanReservation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1174400318E111BF00FF21E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeanReservation/SeanReservation-Prefix.pch";
+				INFOPLIST_FILE = "SeanReservation/SeanReservation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1174400518E111BF00FF21E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeanReservation.app/SeanReservation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeanReservation/SeanReservation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SeanReservationTests/SeanReservationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1174400618E111BF00FF21E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SeanReservation.app/SeanReservation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeanReservation/SeanReservation-Prefix.pch";
+				INFOPLIST_FILE = "SeanReservationTests/SeanReservationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11743FCA18E111BF00FF21E0 /* Build configuration list for PBXProject "SeanReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11743FFF18E111BF00FF21E0 /* Debug */,
+				1174400018E111BF00FF21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1174400118E111BF00FF21E0 /* Build configuration list for PBXNativeTarget "SeanReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1174400218E111BF00FF21E0 /* Debug */,
+				1174400318E111BF00FF21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1174400418E111BF00FF21E0 /* Build configuration list for PBXNativeTarget "SeanReservationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1174400518E111BF00FF21E0 /* Debug */,
+				1174400618E111BF00FF21E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11743FC718E111BF00FF21E0 /* Project object */;
+}
